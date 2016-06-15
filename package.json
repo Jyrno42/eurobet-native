@@ -1,0 +1,42 @@
+{
+  "name": "eurobet",
+  "version": "1.0.0-alpha",
+  "private": true,
+  "author": "Thorgate <code@thorgate.eu>",
+  "dependencies": {
+    "classnames": "2.2.5",
+    "email-validator": "1.0.4",
+    "react": "15.1.0",
+    "react-native": "0.28.0",
+    "react-native-cookies": "^1.0.2",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2",
+    "redux-logger": "2.6.1",
+    "redux-persist": "3.2.2",
+    "redux-thunk": "2.1.0",
+    "tg-resources-react-native": "1.0.0-alpha-3"
+  },
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-core": "6.9.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-function-bind": "6.8.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "babel-preset-react-native": "1.9.0",
+    "babel-preset-react-native-stage-0": "1.0.1",
+    "babel-relay-plugin": "0.9.0",
+    "flow-bin": "0.24.0",
+    "rnpm-plugin-upgrade": "0.26.0"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "modulePathIgnorePatterns": [
+    "node_modules/babel-runtime",
+    "node_modules/superagent/docs"
+  ]
+}
